@@ -17,7 +17,7 @@ public abstract class EntityBase
         }
     }
 
-    private List<DomainEventBase> _domainEvents = new();
+    private readonly List<DomainEventBase> _domainEvents = new();
 
     [NotMapped]
     public IReadOnlyCollection<DomainEventBase> DomainEvents => _domainEvents.AsReadOnly();
@@ -64,7 +64,7 @@ public abstract class EntityBase
         { return item.Id == Id; }
     }
 
-    public static bool operator ==(EntityBase left, EntityBase right)
+    public static bool operator == (EntityBase left, EntityBase right)
     {
         if (Equals(left, null))
         {

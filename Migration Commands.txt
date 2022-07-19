@@ -1,0 +1,5 @@
+-- command for initial context
+dotnet ef migrations add InitialContext -p Mc2Test.CrudTest.API -c "TestDbContext" -o "Migrations/"
+
+-- command for update databse
+dotnet ef database update -p Mc2Test.CrudTest.API

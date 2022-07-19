@@ -4,11 +4,16 @@ public abstract class Enumeration : IComparable
 {
     public string Name { get; private set; }
 
+    public string PersianName { get; private set; }
+
     public int Id { get; private set; }
 
-    protected Enumeration(int id, string name) => (Id, Name) = (id, name);
+    protected Enumeration(int id, string name, string persianName)
+        => (Id, Name, PersianName) = (id, name, persianName);
 
     public override string ToString() => Name;
+    public string ToPersianString() => PersianName;
+
 
     public static IEnumerable<T> GetAll<T>() where T : Enumeration =>
         typeof(T).GetFields(BindingFlags.Public |
