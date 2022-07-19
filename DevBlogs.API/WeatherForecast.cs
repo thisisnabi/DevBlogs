@@ -1,4 +1,4 @@
-namespace DevBlogs.Writers.API
+namespace DevBlogs.API
 {
     public class WeatherForecast
     {

@@ -1,4 +1,4 @@
-﻿namespace DevBlogs.Shared.Common.Helpers;
+﻿namespace DevBlogs.SharedKernel.Helpers;
 
 public static class ThrowHelper
 {
@@ -19,14 +19,14 @@ public static class ThrowHelper
 
     public static void ThrowInvalidPropertyException(string paramName)
     {
-        throw new ArgumentException("Invalid selected property for order list.",paramName);
+        throw new ArgumentException("Invalid selected property for order list.", paramName);
     }
-     
+
     public static void ThrowRollbackTransactionException(Guid? transactionId)
     {
-        throw new ArgumentException($"Transaction [Id:{(transactionId.ToString() ?? "InvalidId")}] was marked for rollback.");
+        throw new ArgumentException($"Transaction [Id:{transactionId.ToString() ?? "InvalidId"}] was marked for rollback.");
     }
-     
+
 }
 
 
