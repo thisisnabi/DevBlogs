@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevBlogs.Infrastructure", "DevBlogs.Infrastructure\DevBlogs.Infrastructure.csproj", "{59766BDE-0539-4FFB-BEE4-C14A982E8B26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevBlogs.Infrastructure", "src\DevBlogs.Infrastructure\DevBlogs.Infrastructure.csproj", "{59766BDE-0539-4FFB-BEE4-C14A982E8B26}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevBlogs.Core", "DevBlogs.Core\DevBlogs.Core.csproj", "{819F9FD8-EDB9-4C6A-A9FD-91201EA93CCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevBlogs.Core", "src\DevBlogs.Core\DevBlogs.Core.csproj", "{819F9FD8-EDB9-4C6A-A9FD-91201EA93CCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevBlogs.SharedKernel", "DevBlogs.SharedKernel\DevBlogs.SharedKernel.csproj", "{D5426ACC-B570-4506-ADF8-392F8BA241E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevBlogs.SharedKernel", "src\DevBlogs.SharedKernel\DevBlogs.SharedKernel.csproj", "{D5426ACC-B570-4506-ADF8-392F8BA241E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevBlogs.API", "DevBlogs.API\DevBlogs.API.csproj", "{323D6BA5-DAD2-478B-BF5F-CDB51768AB6D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevBlogs.API", "src\DevBlogs.API\DevBlogs.API.csproj", "{323D6BA5-DAD2-478B-BF5F-CDB51768AB6D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02FB33F6-318B-4576-A50C-4CC1647CBA2B}"
 EndProject
